@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+  <!--==================== METADATOS ====================-->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="description" content="List">
+      <meta name="keywords" content="HTML-CSS-JS">
+      <meta name="author" content="Rocio Cuello">
+      
+      <!--==================== CSS ====================-->
+      <link rel="stylesheet" href="assets/css/style.css">
+
+      <!--==================== TITULO ====================-->
+      <title>List | Responsive Todo List App</title>
+
+      <!--==================== ICONO DE PESTAÑA ====================-->
+      <link rel="icon" sizes="64x64" href="assets/img/favicon.webp"> 
+
+      <!--==================== ICONOS ====================-->
+      <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    </head>
+
+  <body>
+    <div class="container">
+      <div class="input-field">
+        <textarea placeholder="Ingresa tu nueva tarea"></textarea>
+        <i class="uil uil-notes note-icon"></i>
+      </div>
+    
+      <ul class="todoLists"></ul>
+    
+      <div class="pending-tasks">
+        <span>
+          Tienes <span class="pending-num">ninguna</span> tarea pendiente.
+        </span>
+        <button class="clear-button">Borrar Todo</button>
+      </div>
+    </div>
+    
+       <!--==================== script ====================-->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
